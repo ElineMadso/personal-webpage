@@ -3,6 +3,7 @@
     "@types/react": "^18.2.63",
     "@types/react-dom": "^18.2.20",
     "husky": "^9.0.11",
+    "prettier": "^3.2.5",
     "typescript": "^5.4.2",
     "vite": "^5.1.5"
   },

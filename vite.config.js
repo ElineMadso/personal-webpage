@@ -1,4 +1,4 @@
 //vite.config.js
 export default {
-    base: "/personal-webpage/",
+  base: "/personal-webpage/",
 };
