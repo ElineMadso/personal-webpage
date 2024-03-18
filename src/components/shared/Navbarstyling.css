@@ -1,17 +1,19 @@
 .navbar-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
 }
 
 .myName {
   font-size: 24px;
   font-weight: bold;
+  margin: 0 20px;
 }
-ul {
-  list-style-type: none;
-  display: flex;
-}
+
 li {
   margin-right: 20px;
 }
