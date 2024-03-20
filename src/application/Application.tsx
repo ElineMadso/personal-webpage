@@ -10,10 +10,10 @@ export const Application = () => {
         <Navbar />
         <main>
           <Routes>
-            <Route path="personal-webpage/" element={<HomePage />} />
-            <Route path="personal-webpage/projects" element={<ProjectPage />} />
-            <Route path="personal-webpage/gallery" element={<GalleryPage />} />
-            <Route path="personal-webpage/aboutme" element={<AboutMePage />} />
+            <Route path="/" element={<HomePage />} />
+            <Route path="/projects" element={<ProjectPage />} />
+            <Route path="/gallery" element={<GalleryPage />} />
+            <Route path="/aboutme" element={<AboutMePage />} />
           </Routes>
         </main>
       </BrowserRouter>
