@@ -9,13 +9,19 @@
 }
 
 .myName {
-  font-size: 24px;
-  font-weight: bold;
-  margin: 0 20px;
+  color: #764415;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 li {
-  margin-right: 20px;
+  display: flex;
+  width: 300px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
 }
 a {
   text-decoration: none;
