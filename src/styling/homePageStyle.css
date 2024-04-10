@@ -1,23 +1,87 @@
-.background {
+* {
+    margin: unset;
+}
+
+.grid-container {
     background: rgba(245, 209, 187, 0.22);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
 
 }
-.area1 {
-    width: 1280px;
-    height: 641px;
-    flex-shrink: 0;
 
-    border-radius: 20px;
-    background: #F5D1BB;
-}
-.area2{
+.section {
     display: flex;
-    width: 1280px;
-    height: 326px;
-    /*padding: 63px 420px 204px 525px;*/
     justify-content: center;
     align-items: center;
-    flex-shrink: 0;
+
+}
+.section1 {
+    grid-column: span 12;
+    height: 50vh;
+    background: #f5d1bb;
+}
+
+.section2{
+    height: 20vh;
+}
+
+.section3 {
+    grid-column: span 12;
+    height: 45vh;
+    background: #C5D2E3;
+}
+
+
+.section4{
+    grid-column: span 12;
+
+}
+.offer-text {
+    color: #6A5ACD;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 510;
+    line-height: normal;
+}
+.banner {
+    grid-column: span 12;
+    grid-row: span 2;
+    height: 40vh;
+    background: #F5D1BB;
+}
+
+.intro-1 {
+    width: 186px;
+    height: 24px;
+
+    color: #764415;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.intro-2 {
+    width: 352px;
+    height: 96px;
+
+
+    color: #764415;
+    font-size: 40px;
+    font-weight: 500;
+}
+.get-in-touch-button {
+    height: 48px;
+    width: 186px;
+    border-radius: 20px;
+    background: #EC5F55;
+    box-shadow: 0px 4px 4px 0px rgba(125, 69, 62, 0.35);
+
+    color: #FFF;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
 }
 .headline {
     color: #EC5F55;
@@ -26,14 +90,7 @@
     font-weight: 700;
     line-height: normal;
 }
-.area3 {
-    width: 1280px;
-    height: 493px;
-    flex-shrink: 0;
 
-    border-radius: 20px;
-    background: #C5D2E3;
-}
 .words-about-me {
     width: 321px;
     height: 96px;
@@ -51,6 +108,7 @@
     height: 36px;
     flex-shrink: 0;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: none;
     border-radius: 20px;
     background: #EC5F55;
 
@@ -60,10 +118,4 @@
     font-style: normal;
     font-weight: 510;
     line-height: normal;
-}
-
-.area4 {
-    width: 1280px;
-    height: 364px;
-    flex-shrink: 0;
 }

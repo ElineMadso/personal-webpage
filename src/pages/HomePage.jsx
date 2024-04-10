@@ -3,19 +3,24 @@ import "../styling/homePageStyle.css";
 const HomePage = () => {
   return (
       <>
-          <div className={"background"}>
-              <div className={"area1"}>
-                <h1>Dette er hjemmesiden</h1>
+          <div className={"grid-container"}>
+              <div className={"section section1"}>
+                  <p className={"intro-1"}>Hi, I'm Eline Madsø,</p>
+                  <h1 className={"intro-2"}>A freelance UX / interaction Designer</h1>
+                  <button className={"get-in-touch-button"}>Get in Touch</button>
               </div>
-              <div className={"area2"}>
+              <div className={"section section2"}>
                   <h2 className={"headline"}>headline</h2>
               </div>
-              <div className={"area3"}>
+              <div className={"section section3"}>
                   <p className={"words-about-me"}>Ord om meg</p>
                   <button className={"about-me-button"}>About me</button>
               </div>
-              <div className={"area4"}>
-                  <p>What can I do?</p>
+              <div className={"section section4"}>
+                  <p className={"offer-text"}>What can I do?</p>
+              </div>
+              <div className={"area banner"}>
+
               </div>
           </div>
 

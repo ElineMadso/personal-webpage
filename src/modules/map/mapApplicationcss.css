@@ -1,18 +1,10 @@
-* {
-  margin: unset;
-}
 
-nav,
-main,
-.mapContainer,
+
+main,.mapContainer,
 aside {
   margin: 1rem;
 }
 
-nav {
-  display: flex;
-  gap: 1rem;
-}
 
 main {
   display: grid;
