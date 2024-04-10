@@ -9,14 +9,12 @@
 .nav-links {
   display: flex;
   list-style-type: none;
-
 }
 
 .myName {
   color: #764415;
   font-size: 2.5rem;
   margin-right: auto;
-
 }
 
 li {
@@ -28,10 +26,10 @@ li {
 a {
   text-decoration: none;
   color: #764415;
-  transition: all ease .4s;
+  transition: all ease 0.4s;
 }
 a:hover {
-  color: #EC5F55;
+  color: #ec5f55;
 }
 
 /*  Media Query  */

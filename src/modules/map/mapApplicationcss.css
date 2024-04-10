@@ -1,10 +1,8 @@
-
-
-main,.mapContainer,
+main,
+.mapContainer,
 aside {
   margin: 1rem;
 }
-
 
 main {
   display: grid;
