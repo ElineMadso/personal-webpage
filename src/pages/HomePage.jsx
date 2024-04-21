@@ -11,7 +11,11 @@ const HomePage = () => {
             <button className={"get-in-touch-button"}>Get in Touch</button>
           </div>
           <div className="right-content">
-            <img src="./images/image-of-me.jpg" alt="your Image" className="image1"/>
+            <img
+              src="./images/image-of-me.jpg"
+              alt="your Image"
+              className="image1"
+            />
           </div>
         </div>
 

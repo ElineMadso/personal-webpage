@@ -21,7 +21,7 @@
   height: 60vh;
   background: #f5d1bb;
 }
-.left-content{
+.left-content {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -94,7 +94,6 @@
   height: 40vh;
   background: #f5d1bb;
 }
-
 
 .headline {
   color: #ec5f55;
