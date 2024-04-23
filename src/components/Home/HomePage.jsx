@@ -1,7 +1,8 @@
 import React from "react";
 import "./homePageStyle.css";
-import heroImage from "../../assets/img/image-of-me.jpg";
+import heroImage from "../../assets/img/Untitled_Artwork 2.png";
 import { Link } from "react-router-dom";
+import rainbowImage from "../../assets/img/rainbow.jpg";
 
 const HomePage = () => {
   return (
@@ -28,7 +29,8 @@ const HomePage = () => {
       <div className={"row"}>
         <div className={"col"}>
           <div className={"section section2"}>
-            <h2 className={"headline"}>headline</h2>
+            <h2 className={"headline"}>Opplev designmagien</h2>
+            <h3>Skreddersydde løsninger for en sømløs brukerinteraksjon</h3>
           </div>
         </div>
       </div>
@@ -36,8 +38,14 @@ const HomePage = () => {
       <div className={"row"}>
         <div className={"col"}>
           <div className={"section section3"}>
-            <p className={"words-about-me"}>Ord om meg</p>
-            <button className={"about-me-button"}>About me</button>
+            <img src={rainbowImage} className="rainbowImage" alt={""} />
+            <div className="right-content3">
+              <p className={"words-about-me"}>
+                Hei der! Finn ut mer om hvordan jeg kan hjelpe deg å bringe din
+                visjon til liv!
+              </p>
+              <button className={"about-me-button"}>About me</button>
+            </div>
           </div>
         </div>
       </div>
