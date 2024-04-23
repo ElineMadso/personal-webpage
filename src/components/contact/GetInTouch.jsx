@@ -32,12 +32,13 @@ const GetInTouch = () => {
     <div className="contact">
       <div className="contact-title">
         <h1>Get in touch</h1>
-        <img src="" alt="" />
       </div>
+
       <div className="contact-section">
         <div className="contact-left">
           <h2>Let's talk</h2>
           <p>I'm currently available to take new projects, so feel free</p>
+
           <div className="contact-details">
             <div className="contact-detail">
               <img className="svg-img" src={mail_icon} alt="" />{" "}

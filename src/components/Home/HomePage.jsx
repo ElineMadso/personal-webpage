@@ -2,6 +2,7 @@ import React from "react";
 import "./homePageStyle.css";
 import GetInTouch from "../contact/GetInTouch";
 import heroImage from "../../assets/img/image-of-me.jpg";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
@@ -14,9 +15,9 @@ const HomePage = () => {
               <h1 className={"intro-2"}>
                 A freelance UX / interaction Designer
               </h1>
-              <a href={GetInTouch}>
+              <Link to="/personal-webpage/contactme">
                 <button className={"get-in-touch-button"}>Get in Touch</button>
-              </a>
+              </Link>
             </div>
             <div className="right-content">
               <img src={heroImage} alt="your Image" className="image1" />
