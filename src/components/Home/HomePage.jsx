@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styling/homePageStyle.css";
 import GetInTouch from "../contact/GetInTouch";
+import heroImage from "../../assets/img/image-of-me.jpg";
 
 const HomePage = () => {
   return (
@@ -19,7 +20,7 @@ const HomePage = () => {
             </div>
             <div className="right-content">
               <img
-                src="./images/image-of-me.jpg"
+                src={heroImage}
                 alt="your Image"
                 className="image1"
               />
