@@ -19,11 +19,7 @@ const HomePage = () => {
               </a>
             </div>
             <div className="right-content">
-              <img
-                src={heroImage}
-                alt="your Image"
-                className="image1"
-              />
+              <img src={heroImage} alt="your Image" className="image1" />
             </div>
           </div>
         </div>

@@ -16,7 +16,7 @@ const GetInTouch = () => {
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
-      body: formData
+      body: formData,
     });
 
     const data = await response.json();
@@ -42,13 +42,16 @@ const GetInTouch = () => {
           <p>I'm currently available to take new projects, so feel free</p>
           <div className="contact-details">
             <div className="contact-detail">
-              <img className="svg-img" src={mail_icon} alt=""/> <p>Elinemadso@gmail.com</p>
+              <img className="svg-img" src={mail_icon} alt="" />{" "}
+              <p>Elinemadso@gmail.com</p>
             </div>
             <div className="contact-detail">
-              <img className="svg-img" src={call_icon} alt="" /> <p>+47 41365261</p>
+              <img className="svg-img" src={call_icon} alt="" />{" "}
+              <p>+47 41365261</p>
             </div>
             <div className="contact-detail">
-              <img className="svg-img" src={location_icon} alt="" /> <p>Moss, Norge</p>
+              <img className="svg-img" src={location_icon} alt="" />{" "}
+              <p>Moss, Norge</p>
             </div>
           </div>
         </div>
