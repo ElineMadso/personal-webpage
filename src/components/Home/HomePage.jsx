@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styling/homePageStyle.css";
+import "./homePageStyle.css";
 import GetInTouch from "../contact/GetInTouch";
 import heroImage from "../../assets/img/image-of-me.jpg";
 
