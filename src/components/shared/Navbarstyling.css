@@ -1,49 +1,25 @@
-.navbar-container {
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
-  background-color: #f5d1bb;
-  box-sizing: border-box;
-  position: relative;
-}
-.nav-links {
-  display: flex;
-  list-style-type: none;
+.navbar-custom {
+    background-color: #f5d1bb;
 }
 
-.myName {
-  color: #764415;
-  font-size: 2.5rem;
-  margin-right: auto;
+.navbar-custom .navbar-brand {
+    color: #764415;
 }
 
-li {
-  margin: 0 10px;
-  font-size: 1.5rem;
-  padding: 10px;
+.navbar-custom .nav-link {
+    color: #764415;
+}
+.navbar-custom .nav-link:hover {
+    color: #ec5f55;
 }
 
-a {
-  text-decoration: none;
-  color: #764415;
-  transition: all ease 0.4s;
+.navbar-toggler-icon {
+    width: 1.5em;
+    height: 1.5em;
+    background-image: none;
+    border: none;
 }
-a:hover {
-  color: #ec5f55;
+.navbar-toggler-icon::before{
+    background-color: #764415;
 }
 
-/*  Media Query  */
-@media screen and (max-width: 768px) {
-  .navbar-container {
-    flex-direction: column;
-    padding: 10px;
-  }
-  .nav-links {
-    flex-direction: column;
-    align-items: center;
-    margin-left: 0;
-  }
-  li {
-    margin: 10px 0;
-  }
-}

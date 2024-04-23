@@ -3,6 +3,8 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HomePage, GalleryPage, AboutMePage, ProjectPage } from "../pages";
 import Navbar from "../components/shared/Navbar";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 export const Application = () => {
   return (
     <>
