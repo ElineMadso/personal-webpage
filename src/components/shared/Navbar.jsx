@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import "./Navbarstyling.css";
+import navLogo from "../../assets/img/nav-logo.png";
+import closeBar from "../../assets/img/closebar.svg";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -13,7 +15,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark navbar-custom">
       <div className="container-fluid">
         <Link to="/personal-webpage/" className="navbar-brand">
-          Eline Madsø
+          <img src={navLogo} className="navlogo" alt="Signature of name. png" />
         </Link>
         <button className="navbar-toggler" type="button" onClick={toggleMenu}>
           <span className="navbar-toggler-icon"></span>

@@ -22,3 +22,6 @@
 .navbar-toggler-icon::before {
   background-color: #764415;
 }
+.navlogo {
+  width: 20%;
+}

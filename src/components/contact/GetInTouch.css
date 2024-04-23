@@ -16,7 +16,7 @@
   padding: 0 30px;
   font-size: 80px;
   font-weight: 600;
-  color: slateblue;
+  color: #6a5acd;
 }
 .contact-title img {
   position: absolute;
@@ -36,22 +36,22 @@
 
 .contact-left h2 {
   font-size: 80px;
-  font-weight: 700;
-  background: linear-gradient(270deg, #ec5f55, #6a5acd 100%);
+  font-weight: 650;
+  background: linear-gradient(270deg, #622d26, #622d26 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .contact-left p {
   max-width: 550px;
-  color: #764415;
+  color: #622d26;
   font-size: 20px;
 }
 .contact-details {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  color: #764415;
+  color: #622d26;
   font-size: 32px;
 }
 .contact-detail {
@@ -64,9 +64,12 @@
   flex-direction: column;
   align-items: start;
   gap: 30px;
+  background-color: #c5d2e3;
+  padding: 2.5em;
+  border-radius: 10px;
 }
 .contact-right label {
-  color: slateblue;
+  color: #622d26;
   font-size: 22px;
   font-weight: 500;
 }
@@ -76,7 +79,7 @@
   height: 78px;
   padding-left: 20px;
   border-radius: 7px;
-  background: #d8e4e6;
+  background: #ffffff;
   color: #764415;
   font-size: 20px;
 }
@@ -85,7 +88,7 @@
   border: none;
   padding: 25px;
   border-radius: 7px;
-  background: #f6e9e0;
+  background: #ffffff;
   color: #764415;
   font-size: 20px;
 }
