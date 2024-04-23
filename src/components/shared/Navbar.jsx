@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import "./Navbarstyling.css";
 import navLogo from "../../assets/img/nav-logo.png";
 
-
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -17,8 +16,12 @@ const Navbar = () => {
         <Link to="/personal-webpage/" className="navbar-brand">
           <img src={navLogo} className="navlogo" alt="Signature of name. png" />
         </Link>
-        <button className="navbar-toggler" type="button" onClick={toggleMenu}>
-          <span className="navbar-toggler-icon"></span>
+        <button
+          className="navbar-toggler justify-content-end"
+          type="button"
+          onClick={toggleMenu}
+        >
+          <span className="navbar-toggler-icon "></span>
         </button>
         <div
           className={
