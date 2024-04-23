@@ -1,6 +1,5 @@
 import React from "react";
 import "./homePageStyle.css";
-import GetInTouch from "../contact/GetInTouch";
 import heroImage from "../../assets/img/image-of-me.jpg";
 import { Link } from "react-router-dom";
 
