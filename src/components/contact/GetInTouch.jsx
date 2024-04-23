@@ -5,7 +5,6 @@ import location_icon from "../../assets/img/location.svg";
 import call_icon from "../../assets/img/call.svg";
 
 const GetInTouch = () => {
-
   const onSubmit = async (event) => {
     event.preventDefault();
     setResult("Sending....");
