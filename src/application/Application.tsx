@@ -3,7 +3,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HomePage, GalleryPage, AboutMePage, ProjectPage } from "../components";
 import Navbar from "../components/shared/Navbar";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import GetInTouch from "../components/contact/GetInTouch";
 
 export const Application = () => {

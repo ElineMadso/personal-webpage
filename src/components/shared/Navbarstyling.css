@@ -1,25 +1,24 @@
 .navbar-custom {
-    background-color: #f5d1bb;
+  background-color: #f5d1bb;
 }
 
 .navbar-custom .navbar-brand {
-    color: #764415;
+  color: #764415;
 }
 
 .navbar-custom .nav-link {
-    color: #764415;
+  color: #764415;
 }
 .navbar-custom .nav-link:hover {
-    color: #ec5f55;
+  color: #ec5f55;
 }
 
 .navbar-toggler-icon {
-    width: 1.5em;
-    height: 1.5em;
-    background-image: none;
-    border: none;
+  width: 1.5em;
+  height: 1.5em;
+  background-image: none;
+  border: none;
 }
-.navbar-toggler-icon::before{
-    background-color: #764415;
+.navbar-toggler-icon::before {
+  background-color: #764415;
 }
-
