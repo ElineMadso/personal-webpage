@@ -1,5 +1,5 @@
 import React from "react";
-import { MapApplication } from "../modules/map/mapApplication";
+import { MapApplication } from "../../modules/map/mapApplication";
 
 const ProjectPage = () => {
   return (
