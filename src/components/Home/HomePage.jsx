@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styling/homePageStyle.css";
+import GetInTouch from "../contact/GetInTouch";
 
 const HomePage = () => {
   return (
@@ -10,9 +11,11 @@ const HomePage = () => {
               <div className={"left-content"}>
                 <p className={"intro-1"}>Hi, I'm Eline Madsø,</p>
                 <h1 className={"intro-2"}>A freelance UX / interaction Designer</h1>
-                <button className={"get-in-touch-button"}>Get in Touch</button>
+                  <a href={GetInTouch}>
+                      <button className={"get-in-touch-button"}>Get in Touch</button>
+                  </a>
               </div>
-              <div className="right-content">
+                <div className="right-content">
                 <img
                     src="./images/image-of-me.jpg"
                     alt="your Image"

@@ -14,10 +14,10 @@ export const Application = () => {
         <main>
           <Routes>
             <Route path="personal-webpage/" element={<HomePage />} />
+            <Route path="personal-webpage/contactme" element={<GetInTouch />} />
             <Route path="personal-webpage/projects" element={<ProjectPage />} />
             <Route path="personal-webpage/gallery" element={<GalleryPage />} />
             <Route path="personal-webpage/aboutme" element={<AboutMePage />} />
-            <Route path="personal-webpage/contactme" element={<GetInTouch />} />
           </Routes>
         </main>
       </BrowserRouter>
