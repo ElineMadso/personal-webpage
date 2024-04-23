@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import "./Navbarstyling.css";
 import navLogo from "../../assets/img/nav-logo.png";
-import closeBar from "../../assets/img/closebar.svg";
+
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
